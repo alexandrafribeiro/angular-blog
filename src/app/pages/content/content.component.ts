@@ -11,6 +11,7 @@ export class ContentComponent implements OnInit {
   photoCover:string = ""
   contentTitle:string = ""
   contentDescription:string = ""
+  contentDescriptionVideo:string =""
   private id:string | null = "0"
 
   constructor(
